@@ -16,8 +16,8 @@ spec:
         app: cmazboot18
     spec:
       containers:
-      - name: cmazboot18
-        image: ebarrioscode/azboot:1.0
+      - name: azbootcamp
+        image: ebarrioscode/azbootcamp.1.0
         ports:
         - containerPort: 80
         resources:
