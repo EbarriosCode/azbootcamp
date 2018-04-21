@@ -1,0 +1,11 @@
+services:
+  azbootcamp:
+    build:
+      context: C:\Users\Ebarrios\Desktop\azbootcamp
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: azbootcamp
+    ports:
+    - 80/tcp
+version: '3.0'
